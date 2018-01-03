@@ -15,7 +15,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/files/basicbot.zip', (req, res) => {
-    res.download('../files/basicbot.zip')
+    res.download('./views/files/basicbot.zip')
 });
 
 app.listen(port, () => {
